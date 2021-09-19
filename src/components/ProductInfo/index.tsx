@@ -35,6 +35,7 @@ const ProductInfo = () => {
                     <Grid item lg={2}>
                         <InputLabel id="color-label" className="productLabel">Select color</InputLabel>
                         <Select
+                            className="selectLabel"
                             labelId="color-label"
                             id="color-select"
                             label="color"
@@ -47,6 +48,7 @@ const ProductInfo = () => {
                     <Grid item lg={2}>
                         <InputLabel id="size-label" className="productLabel">Select size</InputLabel>
                         <Select
+                            className="selectLabel"
                             labelId="size-label"
                             id="size-select"
                             label="Size"
@@ -62,6 +64,7 @@ const ProductInfo = () => {
                     <Grid item lg={2}>
                         <InputLabel id="quantity-label" className="productLabel">Select quantity</InputLabel>
                         <Select
+                            className="selectLabel"
                             labelId="quantity-label"
                             id="quantity-select"
                             label="quantity"
