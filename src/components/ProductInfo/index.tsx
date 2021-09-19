@@ -1,5 +1,10 @@
 import "./index.css";
 import { Grid, Paper, Typography, Select, MenuItem, InputLabel, Button } from "@material-ui/core";
+
+/**
+ * Product info elements
+ * @returns ProductInfo UI elements
+ */
 const ProductInfo = () => {
     return (
         <div className="productInfo">
